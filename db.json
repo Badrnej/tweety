@@ -1,0 +1,20 @@
+{
+    "tweets": [
+      {
+        "id": 1,
+        "user": "Utilisateur1",
+        "content": "Ceci est mon premier tweet !",
+        "likes": 10,
+        "retweets": 5,
+        "replies": 2
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "username": "Utilisateur1",
+        "avatar": "lien_vers_avatar"
+      }
+    ]
+  }
+  
