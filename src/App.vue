@@ -1,22 +1,45 @@
 <template>
-  <div class="container mx-auto">
-    <Navbar />
-    <div class="flex space-x-4">
-      <TweetList />
-      <UserSuggestions />
+  <SideBar />
+  <div class="flex">
+    <main class="w-[51vw] ml-[20vw] border-[1px] border-[lightgray]">
+      <h2 class="h-10 ml-5 text-xl font-bold text-black">Home</h2>
+      <TweetBar />
+      <PostsContainer />
+    </main>
+    <div>
+      <SearchField />
+      <TrendingBar />
     </div>
   </div>
 </template>
 
+<style>
+body {
+  background-color: rgba(238, 241, 246, 0.97);
+}
+
+main {
+  border-top: none;
+  margin-right: 21px;
+}
+</style>
+
 <script>
-import Navbar from './components/Navbar.vue';
-import TweetList from './components/TweetList.vue';
-import UserSuggestions from './components/UserSuggestions.vue';
+import "../src/style.css";
+import SideBar from "./components/SideBar.vue";
+import TrendingBar from "./components/Trending.vue";
+import SearchField from "./components/SearchField.vue";
+import TweetBar from "./components/TweetBar.vue";
+import PostsContainer from "./components/Posts.vue";
 
 export default {
-  name: 'App',
-  components: { Navbar, TweetList, UserSuggestions }
-}
+  name: "App",
+  components: {
+    SideBar,
+    TrendingBar,
+    SearchField,
+    TweetBar,
+    PostsContainer,
+  },
+};
 </script>
-
-
