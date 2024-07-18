@@ -1,6 +1,6 @@
 <template>
   <!-- Sidebar -->
-  <aside class="fixed h-screen w-[20vw] pt-5 pl-16 text-black">
+  <aside class="fixed h-screen w-[20vw] pt-5 pl-16 text-white">
     <!-- Logo -->
     <img class="w-12 ml-[-10px] mb-2" src="../assets/logo.png" alt="Logo" />
     <!-- List (unordered) of icons and corresponding texts in the sidebar -->
@@ -56,7 +56,7 @@
       <!-- Mini profile image and text -->
       <li>
         <img
-          class="w-7 h-7 mr-2 border-[3px] border-opacity-80 border-black rounded-full"
+          class="w-7 h-7 mr-2 border-[3px] border-opacity-80 border-white rounded-full"
           src="../assets/Profile.png"
           alt="Profile Image"
         />

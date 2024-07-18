@@ -49,7 +49,7 @@
 
 <style>
 body {
-  color: rgb(57, 57, 54);
+  color: antiquewhite;
 }
 
 .post-icns p {
@@ -60,7 +60,7 @@ body {
 
 .posts li {
   padding-top: 12px;
-  border-bottom: 1px solid rgb(46, 44, 44);
+  border-bottom: 1px solid lightgray;
 }
 </style>
 
