@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  color: antiquewhite;
+  color: rgb(0, 0, 0);
   padding: 12px 30px;
   border-bottom: 1px solid lightgray;
 }
